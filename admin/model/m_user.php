@@ -1,7 +1,7 @@
 <?php
 	include("database.php");
-	require("public/PHPMailer-master/class.phpmailer.php");
-
+	/*require("public/PHPMailer-master/class.phpmailer.php");*/
+	require("public/PHPMailer-master/PHPMailerAutoload.php");
 
 	class M_user extends database
 	{
